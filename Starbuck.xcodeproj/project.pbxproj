@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE7D65531E62821A00BD0EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D65521E62821A00BD0EE6 /* AppDelegate.swift */; };
+		BE7D65551E62821A00BD0EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D65541E62821A00BD0EE6 /* ViewController.swift */; };
+		BE7D65581E62821A00BD0EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7D65561E62821A00BD0EE6 /* Main.storyboard */; };
+		BE7D655B1E62821A00BD0EE6 /* Starbuck.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE7D65591E62821A00BD0EE6 /* Starbuck.xcdatamodeld */; };
+		BE7D655D1E62821A00BD0EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE7D655C1E62821A00BD0EE6 /* Assets.xcassets */; };
+		BE7D65601E62821A00BD0EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE7D655E1E62821A00BD0EE6 /* LaunchScreen.storyboard */; };
+		BE7D656B1E62821A00BD0EE6 /* StarbuckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D656A1E62821A00BD0EE6 /* StarbuckTests.swift */; };
+		BE7D65761E62821A00BD0EE6 /* StarbuckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D65751E62821A00BD0EE6 /* StarbuckUITests.swift */; };
+		BE7D65841E62AA9F00BD0EE6 /* BenefitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7D65831E62AA9F00BD0EE6 /* BenefitViewController.swift */; };
+		BE7D65861E62ABBF00BD0EE6 /* starbuck-card.png in Resources */ = {isa = PBXBuildFile; fileRef = BE7D65851E62ABBF00BD0EE6 /* starbuck-card.png */; };
+		BE9E8E981E62AF5C00EAF43B /* TransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E8E971E62AF5C00EAF43B /* TransactionViewController.swift */; };
+		BE9E8E9F1E62BF8100EAF43B /* starbuck-bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8E991E62BF8100EAF43B /* starbuck-bar.jpg */; };
+		BE9E8EA01E62BF8100EAF43B /* starbuck-button.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8E9A1E62BF8100EAF43B /* starbuck-button.png */; };
+		BE9E8EA11E62BF8100EAF43B /* starbuck-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8E9B1E62BF8100EAF43B /* starbuck-icon.jpg */; };
+		BE9E8EA21E62BF8100EAF43B /* starbuck-icon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8E9C1E62BF8100EAF43B /* starbuck-icon2.jpg */; };
+		BE9E8EA41E62BF8100EAF43B /* starbuck-wcard.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8E9E1E62BF8100EAF43B /* starbuck-wcard.png */; };
+		BE9E8EA61E62C16500EAF43B /* starbuck-menu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8EA51E62C16500EAF43B /* starbuck-menu.jpg */; };
+		BE9E8EA81E62E45800EAF43B /* starbuck-star.png in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8EA71E62E45800EAF43B /* starbuck-star.png */; };
+		BE9E8EAC1E62E5EB00EAF43B /* Pic in Resources */ = {isa = PBXBuildFile; fileRef = BE9E8EAB1E62E5EB00EAF43B /* Pic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE7D65671E62821A00BD0EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7D65471E62821A00BD0EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7D654E1E62821A00BD0EE6;
+			remoteInfo = Starbuck;
+		};
+		BE7D65721E62821A00BD0EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE7D65471E62821A00BD0EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE7D654E1E62821A00BD0EE6;
+			remoteInfo = Starbuck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE7D654F1E62821A00BD0EE6 /* Starbuck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Starbuck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D65521E62821A00BD0EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE7D65541E62821A00BD0EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE7D65571E62821A00BD0EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE7D655A1E62821A00BD0EE6 /* Starbuck.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Starbuck.xcdatamodel; sourceTree = "<group>"; };
+		BE7D655C1E62821A00BD0EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE7D655F1E62821A00BD0EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE7D65611E62821A00BD0EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D65661E62821A00BD0EE6 /* StarbuckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbuckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D656A1E62821A00BD0EE6 /* StarbuckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbuckTests.swift; sourceTree = "<group>"; };
+		BE7D656C1E62821A00BD0EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D65711E62821A00BD0EE6 /* StarbuckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarbuckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7D65751E62821A00BD0EE6 /* StarbuckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarbuckUITests.swift; sourceTree = "<group>"; };
+		BE7D65771E62821A00BD0EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE7D65831E62AA9F00BD0EE6 /* BenefitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenefitViewController.swift; sourceTree = "<group>"; };
+		BE7D65851E62ABBF00BD0EE6 /* starbuck-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbuck-card.png"; sourceTree = "<group>"; };
+		BE9E8E971E62AF5C00EAF43B /* TransactionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionViewController.swift; sourceTree = "<group>"; };
+		BE9E8E991E62BF8100EAF43B /* starbuck-bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbuck-bar.jpg"; sourceTree = "<group>"; };
+		BE9E8E9A1E62BF8100EAF43B /* starbuck-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbuck-button.png"; sourceTree = "<group>"; };
+		BE9E8E9B1E62BF8100EAF43B /* starbuck-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbuck-icon.jpg"; sourceTree = "<group>"; };
+		BE9E8E9C1E62BF8100EAF43B /* starbuck-icon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbuck-icon2.jpg"; sourceTree = "<group>"; };
+		BE9E8E9E1E62BF8100EAF43B /* starbuck-wcard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbuck-wcard.png"; sourceTree = "<group>"; };
+		BE9E8EA51E62C16500EAF43B /* starbuck-menu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "starbuck-menu.jpg"; sourceTree = "<group>"; };
+		BE9E8EA71E62E45800EAF43B /* starbuck-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starbuck-star.png"; sourceTree = "<group>"; };
+		BE9E8EAB1E62E5EB00EAF43B /* Pic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Pic; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE7D654C1E62821A00BD0EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D65631E62821A00BD0EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D656E1E62821A00BD0EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE7D65461E62821A00BD0EE6 = {
+			isa = PBXGroup;
+			children = (
+				BE7D65511E62821A00BD0EE6 /* Starbuck */,
+				BE7D65691E62821A00BD0EE6 /* StarbuckTests */,
+				BE7D65741E62821A00BD0EE6 /* StarbuckUITests */,
+				BE7D65501E62821A00BD0EE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE7D65501E62821A00BD0EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D654F1E62821A00BD0EE6 /* Starbuck.app */,
+				BE7D65661E62821A00BD0EE6 /* StarbuckTests.xctest */,
+				BE7D65711E62821A00BD0EE6 /* StarbuckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE7D65511E62821A00BD0EE6 /* Starbuck */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D65851E62ABBF00BD0EE6 /* starbuck-card.png */,
+				BE9E8E991E62BF8100EAF43B /* starbuck-bar.jpg */,
+				BE9E8E9A1E62BF8100EAF43B /* starbuck-button.png */,
+				BE9E8E9B1E62BF8100EAF43B /* starbuck-icon.jpg */,
+				BE9E8EA71E62E45800EAF43B /* starbuck-star.png */,
+				BE9E8E9C1E62BF8100EAF43B /* starbuck-icon2.jpg */,
+				BE9E8EA51E62C16500EAF43B /* starbuck-menu.jpg */,
+				BE9E8E9E1E62BF8100EAF43B /* starbuck-wcard.png */,
+				BE9E8EAB1E62E5EB00EAF43B /* Pic */,
+				BE7D65521E62821A00BD0EE6 /* AppDelegate.swift */,
+				BE7D65541E62821A00BD0EE6 /* ViewController.swift */,
+				BE7D65561E62821A00BD0EE6 /* Main.storyboard */,
+				BE9E8E971E62AF5C00EAF43B /* TransactionViewController.swift */,
+				BE7D65831E62AA9F00BD0EE6 /* BenefitViewController.swift */,
+				BE7D655C1E62821A00BD0EE6 /* Assets.xcassets */,
+				BE7D655E1E62821A00BD0EE6 /* LaunchScreen.storyboard */,
+				BE7D65611E62821A00BD0EE6 /* Info.plist */,
+				BE7D65591E62821A00BD0EE6 /* Starbuck.xcdatamodeld */,
+			);
+			path = Starbuck;
+			sourceTree = "<group>";
+		};
+		BE7D65691E62821A00BD0EE6 /* StarbuckTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D656A1E62821A00BD0EE6 /* StarbuckTests.swift */,
+				BE7D656C1E62821A00BD0EE6 /* Info.plist */,
+			);
+			path = StarbuckTests;
+			sourceTree = "<group>";
+		};
+		BE7D65741E62821A00BD0EE6 /* StarbuckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE7D65751E62821A00BD0EE6 /* StarbuckUITests.swift */,
+				BE7D65771E62821A00BD0EE6 /* Info.plist */,
+			);
+			path = StarbuckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE7D654E1E62821A00BD0EE6 /* Starbuck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D657A1E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "Starbuck" */;
+			buildPhases = (
+				BE7D654B1E62821A00BD0EE6 /* Sources */,
+				BE7D654C1E62821A00BD0EE6 /* Frameworks */,
+				BE7D654D1E62821A00BD0EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Starbuck;
+			productName = Starbuck;
+			productReference = BE7D654F1E62821A00BD0EE6 /* Starbuck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE7D65651E62821A00BD0EE6 /* StarbuckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D657D1E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "StarbuckTests" */;
+			buildPhases = (
+				BE7D65621E62821A00BD0EE6 /* Sources */,
+				BE7D65631E62821A00BD0EE6 /* Frameworks */,
+				BE7D65641E62821A00BD0EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7D65681E62821A00BD0EE6 /* PBXTargetDependency */,
+			);
+			name = StarbuckTests;
+			productName = StarbuckTests;
+			productReference = BE7D65661E62821A00BD0EE6 /* StarbuckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE7D65701E62821A00BD0EE6 /* StarbuckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE7D65801E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "StarbuckUITests" */;
+			buildPhases = (
+				BE7D656D1E62821A00BD0EE6 /* Sources */,
+				BE7D656E1E62821A00BD0EE6 /* Frameworks */,
+				BE7D656F1E62821A00BD0EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE7D65731E62821A00BD0EE6 /* PBXTargetDependency */,
+			);
+			name = StarbuckUITests;
+			productName = StarbuckUITests;
+			productReference = BE7D65711E62821A00BD0EE6 /* StarbuckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE7D65471E62821A00BD0EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = darkpl2ince;
+				TargetAttributes = {
+					BE7D654E1E62821A00BD0EE6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					BE7D65651E62821A00BD0EE6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE7D654E1E62821A00BD0EE6;
+					};
+					BE7D65701E62821A00BD0EE6 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BE7D654E1E62821A00BD0EE6;
+					};
+				};
+			};
+			buildConfigurationList = BE7D654A1E62821A00BD0EE6 /* Build configuration list for PBXProject "Starbuck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE7D65461E62821A00BD0EE6;
+			productRefGroup = BE7D65501E62821A00BD0EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE7D654E1E62821A00BD0EE6 /* Starbuck */,
+				BE7D65651E62821A00BD0EE6 /* StarbuckTests */,
+				BE7D65701E62821A00BD0EE6 /* StarbuckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE7D654D1E62821A00BD0EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9E8EA21E62BF8100EAF43B /* starbuck-icon2.jpg in Resources */,
+				BE7D65601E62821A00BD0EE6 /* LaunchScreen.storyboard in Resources */,
+				BE9E8E9F1E62BF8100EAF43B /* starbuck-bar.jpg in Resources */,
+				BE9E8EAC1E62E5EB00EAF43B /* Pic in Resources */,
+				BE9E8EA01E62BF8100EAF43B /* starbuck-button.png in Resources */,
+				BE7D655D1E62821A00BD0EE6 /* Assets.xcassets in Resources */,
+				BE9E8EA61E62C16500EAF43B /* starbuck-menu.jpg in Resources */,
+				BE7D65861E62ABBF00BD0EE6 /* starbuck-card.png in Resources */,
+				BE9E8EA11E62BF8100EAF43B /* starbuck-icon.jpg in Resources */,
+				BE9E8EA81E62E45800EAF43B /* starbuck-star.png in Resources */,
+				BE9E8EA41E62BF8100EAF43B /* starbuck-wcard.png in Resources */,
+				BE7D65581E62821A00BD0EE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D65641E62821A00BD0EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D656F1E62821A00BD0EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE7D654B1E62821A00BD0EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE9E8E981E62AF5C00EAF43B /* TransactionViewController.swift in Sources */,
+				BE7D65551E62821A00BD0EE6 /* ViewController.swift in Sources */,
+				BE7D65531E62821A00BD0EE6 /* AppDelegate.swift in Sources */,
+				BE7D65841E62AA9F00BD0EE6 /* BenefitViewController.swift in Sources */,
+				BE7D655B1E62821A00BD0EE6 /* Starbuck.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D65621E62821A00BD0EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7D656B1E62821A00BD0EE6 /* StarbuckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE7D656D1E62821A00BD0EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE7D65761E62821A00BD0EE6 /* StarbuckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE7D65681E62821A00BD0EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7D654E1E62821A00BD0EE6 /* Starbuck */;
+			targetProxy = BE7D65671E62821A00BD0EE6 /* PBXContainerItemProxy */;
+		};
+		BE7D65731E62821A00BD0EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE7D654E1E62821A00BD0EE6 /* Starbuck */;
+			targetProxy = BE7D65721E62821A00BD0EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE7D65561E62821A00BD0EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7D65571E62821A00BD0EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE7D655E1E62821A00BD0EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE7D655F1E62821A00BD0EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE7D65781E62821A00BD0EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE7D65791E62821A00BD0EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE7D657B1E62821A00BD0EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Starbuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.Starbuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE7D657C1E62821A00BD0EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Starbuck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.Starbuck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BE7D657E1E62821A00BD0EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarbuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.StarbuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starbuck.app/Starbuck";
+			};
+			name = Debug;
+		};
+		BE7D657F1E62821A00BD0EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = StarbuckTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.StarbuckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Starbuck.app/Starbuck";
+			};
+			name = Release;
+		};
+		BE7D65811E62821A00BD0EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StarbuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.StarbuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Starbuck;
+			};
+			name = Debug;
+		};
+		BE7D65821E62821A00BD0EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = StarbuckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ppn9.su.StarbuckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Starbuck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE7D654A1E62821A00BD0EE6 /* Build configuration list for PBXProject "Starbuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D65781E62821A00BD0EE6 /* Debug */,
+				BE7D65791E62821A00BD0EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D657A1E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "Starbuck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D657B1E62821A00BD0EE6 /* Debug */,
+				BE7D657C1E62821A00BD0EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D657D1E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "StarbuckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D657E1E62821A00BD0EE6 /* Debug */,
+				BE7D657F1E62821A00BD0EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE7D65801E62821A00BD0EE6 /* Build configuration list for PBXNativeTarget "StarbuckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE7D65811E62821A00BD0EE6 /* Debug */,
+				BE7D65821E62821A00BD0EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE7D65591E62821A00BD0EE6 /* Starbuck.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE7D655A1E62821A00BD0EE6 /* Starbuck.xcdatamodel */,
+			);
+			currentVersion = BE7D655A1E62821A00BD0EE6 /* Starbuck.xcdatamodel */;
+			path = Starbuck.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE7D65471E62821A00BD0EE6 /* Project object */;
+}
